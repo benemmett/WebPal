@@ -1,0 +1,85 @@
+<!doctype html>
+ 
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Appearance Options</title>
+<script type="text/javascript" src="jquery-ui/js/jquery-1.7.1.min.js"></script>
+
+
+
+<style type="text/css" media="screen">
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 2px;
+}
+
+h1{
+	font:normal 24px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.regular{
+	font:normal 18px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.bktd{
+	background-color:white;
+	text-align: center;
+	border:1px solid grey;
+	width: 100px;
+   	height: 100px;
+   	float:left;
+   	margin:2px;
+   	line-height: 98px;
+   	margin-top: expression(( 100 - this.height ) / 2); 
+}
+
+.bktd img{
+	max-width:100px;
+	min-width:50px;
+	margin-top: expression(( 100 - this.height ) / 2); 
+}
+
+</style>
+</head>
+<body >
+ 
+<div id="container" style="width:100%">
+		<!---<h1>CSS Reader</h1>
+		<span class="regular">
+			Display 
+			<br><span style="padding-left:20px">Yes <input type="radio" name="displaycss" value="yes" checked> No <input type="radio" name="displaycss" value="no"></span>
+		</span><br>
+		<span class="regular">
+			URL 
+			<br><span style="padding-left:20px"><input type="text" size="50" value="http://customercommons.org/feed/" class="regular"></span>--->
+		</span>
+		<br><br>
+		<span class="regular">
+			<h1>Background</h1>
+			<br>
+			<div style="padding-left:20px" id="backgroundlist">
+			
+						<span style="padding:5px;">Enter Background URL</span> <br>
+						<input type = "text" size="100" name="bkurl" style="border:1px solid grey;height:20px;" id="bkurl"> <a id="applyBk">Apply</a>
+						
+				
+				<script type="text/javascript" src="ejs/options_wp.js"></script>
+				
+				<br><br>
+				Get some backgrounds from <a href="http://photobucket.com/images/pattern%20background?page=1" target="_newtab">PhotoBucket.com</a><br>
+				Simply copy and paste the "direct" link from the right side of the image into the input box above. 
+			
+			</div>
+		</span>
+</div>
+</div>
+
+<div style="clear:both;"></div>
+
+
+</body>
+</html>
+
+
